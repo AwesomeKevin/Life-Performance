@@ -44,18 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrator.cs" />
+    <Compile Include="Bioloog.cs" />
+    <Compile Include="Boot.cs" />
     <Compile Include="BotenForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BotenForm.Designer.cs">
       <DependentUpon>BotenForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CEO.cs" />
+    <Compile Include="HOPE.cs" />
+    <Compile Include="Incident.cs" />
     <Compile Include="IncidentForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IncidentForm.Designer.cs">
       <DependentUpon>IncidentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kapitein.cs" />
     <Compile Include="KeuzeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,36 +75,43 @@
     <Compile Include="InlogForm.Designer.cs">
       <DependentUpon>InlogForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Materiaal.cs" />
     <Compile Include="MateriaalForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MateriaalForm.Designer.cs">
       <DependentUpon>MateriaalForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Medewerker.cs" />
+    <Compile Include="Meting.cs" />
     <Compile Include="MetingForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MetingForm.Designer.cs">
       <DependentUpon>MetingForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Missie.cs" />
     <Compile Include="MissieForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MissieForm.Designer.cs">
       <DependentUpon>MissieForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Missieprofiel.cs" />
     <Compile Include="MissieProfielForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MissieProfielForm.Designer.cs">
       <DependentUpon>MissieProfielForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Missierapport.cs" />
     <Compile Include="PersoneelForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PersoneelForm.Designer.cs">
       <DependentUpon>PersoneelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Politie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RapportageForm.cs">
@@ -106,6 +120,7 @@
     <Compile Include="RapportageForm.Designer.cs">
       <DependentUpon>RapportageForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SIN.cs" />
     <EmbeddedResource Include="BotenForm.resx">
       <DependentUpon>BotenForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -9,7 +9,7 @@ namespace GreenShark_Live_Performance
     public class Politie : Medewerker
     {
         //Constructor
-        public Politie(string naam, DateTime geboortedatum) : base(naam, geboortedatum)
+        public Politie(string naam, string geboortedatum) : base(naam, geboortedatum)
         {
 
         }

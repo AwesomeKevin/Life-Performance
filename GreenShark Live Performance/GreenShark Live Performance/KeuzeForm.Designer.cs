@@ -46,6 +46,7 @@
             this.btnIncidenten.TabIndex = 15;
             this.btnIncidenten.Text = "Incidenten";
             this.btnIncidenten.UseVisualStyleBackColor = true;
+            this.btnIncidenten.Click += new System.EventHandler(this.btnIncidenten_Click);
             // 
             // btnMetingen
             // 
@@ -55,6 +56,7 @@
             this.btnMetingen.TabIndex = 14;
             this.btnMetingen.Text = "Metingen";
             this.btnMetingen.UseVisualStyleBackColor = true;
+            this.btnMetingen.Click += new System.EventHandler(this.btnMetingen_Click);
             // 
             // btnProfielen
             // 
@@ -64,6 +66,7 @@
             this.btnProfielen.TabIndex = 13;
             this.btnProfielen.Text = "Profielen";
             this.btnProfielen.UseVisualStyleBackColor = true;
+            this.btnProfielen.Click += new System.EventHandler(this.btnProfielen_Click);
             // 
             // btnRapportages
             // 
@@ -73,6 +76,7 @@
             this.btnRapportages.TabIndex = 12;
             this.btnRapportages.Text = "Rapportages";
             this.btnRapportages.UseVisualStyleBackColor = true;
+            this.btnRapportages.Click += new System.EventHandler(this.btnRapportages_Click);
             // 
             // btnMateriaal
             // 
@@ -82,6 +86,7 @@
             this.btnMateriaal.TabIndex = 11;
             this.btnMateriaal.Text = "Materiaal";
             this.btnMateriaal.UseVisualStyleBackColor = true;
+            this.btnMateriaal.Click += new System.EventHandler(this.btnMateriaal_Click);
             // 
             // btnPersoneel
             // 
@@ -91,6 +96,7 @@
             this.btnPersoneel.TabIndex = 10;
             this.btnPersoneel.Text = "Personeel";
             this.btnPersoneel.UseVisualStyleBackColor = true;
+            this.btnPersoneel.Click += new System.EventHandler(this.btnPersoneel_Click);
             // 
             // btnBoten
             // 
@@ -100,6 +106,7 @@
             this.btnBoten.TabIndex = 9;
             this.btnBoten.Text = "Boten";
             this.btnBoten.UseVisualStyleBackColor = true;
+            this.btnBoten.Click += new System.EventHandler(this.btnBoten_Click);
             // 
             // btnMissies
             // 
@@ -109,6 +116,7 @@
             this.btnMissies.TabIndex = 8;
             this.btnMissies.Text = "Missies";
             this.btnMissies.UseVisualStyleBackColor = true;
+            this.btnMissies.Click += new System.EventHandler(this.btnMissies_Click);
             // 
             // KeuzeForm
             // 

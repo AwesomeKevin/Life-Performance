@@ -9,7 +9,7 @@ namespace GreenShark_Live_Performance
     public class Administrator : Medewerker
     {
         //Constructor
-        public Administrator(string naam, DateTime geboortedatum) : base(naam, geboortedatum)
+        public Administrator(string naam, string geboortedatum) : base(naam, geboortedatum)
         {
 
         }

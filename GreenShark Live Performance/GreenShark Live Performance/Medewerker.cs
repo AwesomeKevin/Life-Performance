@@ -10,7 +10,7 @@ namespace GreenShark_Live_Performance
     {
         //Fields
         private string naam;
-        private DateTime geboortedatum;
+        private string geboortedatum;
 
         //Properties
         public string Naam
@@ -19,14 +19,14 @@ namespace GreenShark_Live_Performance
             set { naam = value; }
         }
 
-        public DateTime Geboortedatum
+        public string Geboortedatum
         {
             get { return geboortedatum; }
             set { geboortedatum = value; }
         }
 
         //Constructor
-        public Medewerker(string naam, DateTime geboortedatum)
+        public Medewerker(string naam, string geboortedatum)
         {
             this.naam = naam;
             this.geboortedatum = geboortedatum;

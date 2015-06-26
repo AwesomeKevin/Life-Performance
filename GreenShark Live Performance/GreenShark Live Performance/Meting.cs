@@ -9,7 +9,7 @@ namespace GreenShark_Live_Performance
     public class Meting
     {
         //Fields
-        private DateTime datum;
+        private string datum;
         private int tijdstip;
         private int locatieX;
         private int locatieY;
@@ -17,7 +17,7 @@ namespace GreenShark_Live_Performance
         private int co2Niveau;
 
         //Properties
-        public DateTime Datum
+        public string Datum
         {
             get { return datum; }
             set { datum = value; }
@@ -54,7 +54,7 @@ namespace GreenShark_Live_Performance
         }
 
         //Constructor
-        public Meting(DateTime datum, int tijdstip, int locatieX, int locatieY, int o2Niveau, int co2Niveau)
+        public Meting(string datum, int tijdstip, int locatieX, int locatieY, int o2Niveau, int co2Niveau)
         {
             this.datum = datum;
             this.tijdstip = tijdstip;

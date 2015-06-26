@@ -10,7 +10,7 @@ namespace GreenShark_Live_Performance
     {
         //Fields
         private string informatie;
-        private DateTime datum;
+        private string datum;
         private int tijdstip;
 
         //Properties
@@ -20,7 +20,7 @@ namespace GreenShark_Live_Performance
             set { informatie = value; }
         }
 
-        public DateTime Datum
+        public string Datum
         {
             get { return datum; }
             set { datum = value; }
@@ -33,7 +33,7 @@ namespace GreenShark_Live_Performance
         }
 
         //Constructor
-        public Incident(string informatie, DateTime datum, int tijdstip)
+        public Incident(string informatie, string datum, int tijdstip)
         {
             this.informatie = informatie;
             this.datum = datum;

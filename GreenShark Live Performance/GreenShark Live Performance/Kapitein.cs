@@ -9,7 +9,7 @@ namespace GreenShark_Live_Performance
     public class Kapitein : Medewerker
     {
         //Constructor
-        public Kapitein(string naam, DateTime geboortedatum) : base(naam, geboortedatum)
+        public Kapitein(string naam, string geboortedatum) : base(naam, geboortedatum)
         {
 
         }

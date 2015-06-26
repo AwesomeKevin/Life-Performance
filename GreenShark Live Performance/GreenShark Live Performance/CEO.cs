@@ -9,7 +9,7 @@ namespace GreenShark_Live_Performance
     public class CEO : Medewerker
     {
         //Constructor
-        public CEO(string naam, DateTime geboortedatum) : base(naam, geboortedatum)
+        public CEO(string naam, string geboortedatum) : base(naam, geboortedatum)
         {
 
         }

@@ -10,7 +10,7 @@ namespace GreenShark_Live_Performance
     {
         //Fields
         private string naam;
-        private DateTime begindatum;
+        private string begindatum;
         private int locatieX;
         private int locatieY;
 
@@ -21,7 +21,7 @@ namespace GreenShark_Live_Performance
             set { naam = value; }
         }
 
-        public DateTime Begindatum
+        public string Begindatum
         {
             get { return begindatum; }
             set { begindatum = value; }
@@ -40,7 +40,7 @@ namespace GreenShark_Live_Performance
         }
 
         //Constructor
-        public Missie(string naam, DateTime begindatum, int locatieX, int locatieY)
+        public Missie(string naam, string begindatum, int locatieX, int locatieY)
         {
             this.naam = naam;
             this.begindatum = begindatum;

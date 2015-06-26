@@ -9,19 +9,19 @@ namespace GreenShark_Live_Performance
     public class HOPE : Missie
     {
         //Field
-        private DateTime einddatum;
+        private string einddatum;
 
         //Propertie
-        public DateTime Einddatum
+        public string Einddatum
         {
             get { return einddatum; }
             set { einddatum = value; }
         }
 
         //Constructor
-        public HOPE(string naam, DateTime begindatum, DateTime einddatum, int locatieX, int locatieY) : base(naam, begindatum, locatieX, locatieY)
+        public HOPE(string naam, string begindatum, string einddatum, int locatieX, int locatieY) : base(naam, begindatum, locatieX, locatieY)
         {
-            
+            this.einddatum = einddatum;
         }
     }
 }

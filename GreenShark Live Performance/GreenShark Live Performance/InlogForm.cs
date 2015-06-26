@@ -16,5 +16,11 @@ namespace GreenShark_Live_Performance
         {
             InitializeComponent();
         }
+
+        private void btnInloggen_Click(object sender, EventArgs e)
+        {
+            var keuzeform = new KeuzeForm();
+            keuzeform.Show();
+        }
     }
 }

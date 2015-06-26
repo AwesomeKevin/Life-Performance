@@ -1,2 +1,20 @@
 c:\users\kevin kopp\documents\visual studio 2013\Projects\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\GreenShark Live Performance.exe.config
 C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\GreenShark Live Performance.exe.config
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark Live Performance.csprojResolveAssemblyReference.cache
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.BotenForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.IncidentForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.KeuzeForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.InlogForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.MateriaalForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.MetingForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.MissieForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.MissieProfielForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.PersoneelForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.Properties.Resources.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark_Live_Performance.RapportageForm.resources
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark Live Performance.csproj.GenerateResource.Cache
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\GreenShark Live Performance.exe
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\GreenShark Live Performance.pdb
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark Live Performance.exe
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\obj\Debug\GreenShark Live Performance.pdb

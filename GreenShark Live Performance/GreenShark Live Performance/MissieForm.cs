@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GreenShark_Live_Performance
 {
-    public partial class Form1 : Form
+    public partial class MissieForm : Form
     {
-        public Form1()
+        public MissieForm()
         {
             InitializeComponent();
+        }
+
+        private void MissieForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

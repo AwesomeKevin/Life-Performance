@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BotenForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BotenForm.Designer.cs">
+      <DependentUpon>BotenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncidentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncidentForm.Designer.cs">
+      <DependentUpon>IncidentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeuzeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeuzeForm.Designer.cs">
+      <DependentUpon>KeuzeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="InlogForm.cs">
       <SubType>Form</SubType>
@@ -56,10 +68,70 @@
     <Compile Include="InlogForm.Designer.cs">
       <DependentUpon>InlogForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MateriaalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MateriaalForm.Designer.cs">
+      <DependentUpon>MateriaalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetingForm.Designer.cs">
+      <DependentUpon>MetingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MissieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissieForm.Designer.cs">
+      <DependentUpon>MissieForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MissieProfielForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissieProfielForm.Designer.cs">
+      <DependentUpon>MissieProfielForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersoneelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersoneelForm.Designer.cs">
+      <DependentUpon>PersoneelForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RapportageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapportageForm.Designer.cs">
+      <DependentUpon>RapportageForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BotenForm.resx">
+      <DependentUpon>BotenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncidentForm.resx">
+      <DependentUpon>IncidentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeuzeForm.resx">
+      <DependentUpon>KeuzeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InlogForm.resx">
       <DependentUpon>InlogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MateriaalForm.resx">
+      <DependentUpon>MateriaalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetingForm.resx">
+      <DependentUpon>MetingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissieForm.resx">
+      <DependentUpon>MissieForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissieProfielForm.resx">
+      <DependentUpon>MissieProfielForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersoneelForm.resx">
+      <DependentUpon>PersoneelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -70,6 +142,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RapportageForm.resx">
+      <DependentUpon>RapportageForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -1,1 +1,2 @@
 c:\users\kevin kopp\documents\visual studio 2013\Projects\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\GreenShark Live Performance.exe.config
+C:\Users\Kevin Kopp\Documents\GitHub\Life-Performance\GreenShark Live Performance\GreenShark Live Performance\bin\Debug\GreenShark Live Performance.exe.config

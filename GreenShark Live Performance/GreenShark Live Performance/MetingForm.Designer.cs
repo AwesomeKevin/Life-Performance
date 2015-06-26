@@ -1,6 +1,6 @@
 ﻿namespace GreenShark_Live_Performance
 {
-    partial class Form1
+    partial class MetingForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // MetingForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(430, 346);
+            this.Name = "MetingForm";
+            this.Text = "Metingen";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
     }
 }

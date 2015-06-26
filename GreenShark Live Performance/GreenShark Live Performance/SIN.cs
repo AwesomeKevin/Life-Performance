@@ -8,6 +8,10 @@ namespace GreenShark_Live_Performance
 {
     public class SIN : Missie
     {
-
+        //Constructor
+        public SIN(string naam, DateTime begindatum, int locatieX, int locatieY) : base(naam, begindatum, locatieX, locatieY)
+        {
+            
+        }
     }
 }

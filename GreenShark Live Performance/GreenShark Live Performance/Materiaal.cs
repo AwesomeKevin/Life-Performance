@@ -8,6 +8,20 @@ namespace GreenShark_Live_Performance
 {
     public class Materiaal
     {
+        //Field
+        private string naam;
 
+        //Propertie
+        public string Naam
+        {
+            get { return naam; }
+            set { naam = value; }
+        }
+
+        //Constructor
+        public Materiaal(string naam)
+        {
+            this.naam = naam;
+        }
     }
 }

@@ -8,6 +8,243 @@ namespace GreenShark_Live_Performance
 {
     public class CEO : Medewerker
     {
+        //Constructor
+        public CEO(string naam, DateTime geboortedatum) : base(naam, geboortedatum)
+        {
 
+        }
+
+        //Methodes
+        //Met deze methode kun je berekenen welke boot het dichtst bij de door jou ingevoerde locatie ligt,
+        // maar deze is nog niet klaar.
+        public Boot ZoekDichtstbijzijndeBoot()
+        {
+            Boot boot = new Boot("test", "snel", 10, 5);
+            return boot;
+        }
+
+        //Deze methode voegt een missie toe in de database,
+        // maar is nog niet klaar.
+        public bool VoegMissieToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt alle missies op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Missie> HaalMissiesOp()
+        {
+            List<Missie> missies = new List<Missie>();
+            return missies;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een missie in de database,
+        // maar is nog niet klaar.
+        public bool WijzigMissie()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een missie uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderMissie()
+        {
+            return false;
+        }
+
+        //Deze methode voegt een meting toe in de database,
+        // maar is nog niet klaar.
+        public bool VoegMetingToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt alle metingen op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Meting> HaalMetingenOp()
+        {
+            List<Meting> metingen = new List<Meting>();
+            return metingen;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een meting in de database,
+        // maar is nog niet klaar.
+        public bool WijzigMeting()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een meting uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderMeting()
+        {
+            return false;
+        }
+
+        //Deze methode voegt een incident toe aan de database,
+        // maar is nog niet klaar.
+        public bool VoegIncidentToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt alle incidenten op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Incident> HaalIncidentenOp()
+        {
+            List<Incident> incidenten = new List<Incident>();
+            return incidenten;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een incident in de database,
+        // maar is nog niet klaar.
+        public bool WijzigIncident()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een incident uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderIncident()
+        {
+            return false;
+        }
+
+        //Deze methode moet een bestand wegschrijven met daarin een geselecteerd missierapport,
+        // maar is nog niet klaar.
+        public bool DraaiMissierapportageUit()
+        {
+            return false;
+        }
+
+        //Deze methode voegt een missieprofiel toe aan de database,
+        // maar is nog niet klaar.
+        public bool VoegMissieprofielToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt alle missieprofielen op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Missieprofiel> HaalMissieprofielenOp()
+        {
+            List<Missieprofiel> missieprofielen = new List<Missieprofiel>();
+            return missieprofielen;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een missieprofiel in de database,
+        // maar is nog niet klaar.
+        public bool WijzigMissieprofiel()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een missieprofiel uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderMissieprofiel()
+        {
+            return false;
+        }
+
+        //Met deze methode kan een HOPE missie goedgekeurd worden,
+        // maar is nog niet klaar.
+        public bool KeurMissieGoed()
+        {
+            return false;
+        }
+
+        //Deze methode voegt een medewerker toe aan de database,
+        // maar is nog niet klaar.
+        public bool VoegMedewerkerToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt alle medewerkers op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Medewerker> HaalMedewerkersOp()
+        {
+            List<Medewerker> medewerkers = new List<Medewerker>();
+            return medewerkers;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een medewerker in de database,
+        // maar is nog niet klaar.
+        public bool WijzigMedewerker()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een medewerker uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderMedewerker()
+        {
+            return false;
+        }
+
+        //Deze methode voegt een boot toe aan de database,
+        // maar is nog niet klaar.
+        public bool VoegBootToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt alle boten op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Boot> HaalBotenOp()
+        {
+            List<Boot> boten = new List<Boot>();
+            return boten;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een boot in de database,
+        // maar is nog niet klaar.
+        public bool WijzigBoot()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een Boot uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderBoot()
+        {
+            return false;
+        }
+
+        //Deze methode voegt een materiaal toe aan de database,
+        // maar is nog niet klaar.
+        public bool VoegMateriaalToe()
+        {
+            return false;
+        }
+
+        //Deze methode haalt al het materiaal op uit de database en zet ze in een lijst,
+        // maar is nog niet klaar.
+        public List<Materiaal> HaalMaterialenenOp()
+        {
+            List<Materiaal> materialen = new List<Materiaal>();
+            return materialen;
+        }
+
+        //Deze methode wijzigt bepaalde gegevens van een materiaal in de database,
+        // maar is nog niet klaar.
+        public bool WijzigMateriaal()
+        {
+            return false;
+        }
+
+        //Deze methode verwijdert een materiaal uit de database,
+        // maar is nog niet klaar.
+        public bool VerwijderMateriaal()
+        {
+            return false;
+        }
+
+        //Deze methode maakt een nieuw missierapport aan in de database,
+        // maar is nog niet klaar.
+        public bool VoerMissierapportageIn()
+        {
+            return false;
+        }
     }
 }

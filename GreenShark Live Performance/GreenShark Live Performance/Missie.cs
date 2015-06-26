@@ -8,6 +8,44 @@ namespace GreenShark_Live_Performance
 {
     public class Missie
     {
+        //Fields
+        private string naam;
+        private DateTime begindatum;
+        private int locatieX;
+        private int locatieY;
 
+        //Properties
+        public string Naam
+        {
+            get { return naam; }
+            set { naam = value; }
+        }
+
+        public DateTime Begindatum
+        {
+            get { return begindatum; }
+            set { begindatum = value; }
+        }
+
+        public int LocatieX
+        {
+            get { return locatieX; }
+            set { locatieX = value; }
+        }
+
+        public int LocatieY
+        {
+            get { return locatieY; }
+            set { locatieY = value; }
+        }
+
+        //Constructor
+        public Missie(string naam, DateTime begindatum, int locatieX, int locatieY)
+        {
+            this.naam = naam;
+            this.begindatum = begindatum;
+            this.locatieX = locatieX;
+            this.locatieY = locatieY;
+        }
     }
 }
